@@ -1,0 +1,81 @@
+Q1£º
+1. Enter a number that you want to take square root of 
+2. Define a take square function with n as the parameter
+   (1)  first use a if statement to ensure the input number is within the nonnegative domain if taking square
+   (2)  if within the domain, prompt up the user to enter a number for guess
+   (3)  use a while True loop to keep looping until finding the correct answer
+   (4)  use the given equation to calculate the next guess
+   (5)  If the difference between last guess and next guess is smaller than 0.0001, claim it's the approximated value.
+   (6)  print the approximated square root of n and stop the infinite while loop
+   (7)  If we haven't found the answer, next guess becomes last guess. The approximation process continues.
+3. call the taking square function to execute it
+
+Q2:
+1. define a function to take reverse number
+   (1) first set reverse number as an empty string
+   (2) if the input number is not equal to zero, then slice it through dividing it by 10
+   (3) add them together as a reverse string
+   (4) convert the reverse string into an interger and return the reverse number
+2. define a function to check whether it is nonpalindromic number
+   (1) if the number is not equal to its reverse number, then it is nonpalindromic
+   (2) otherwise it is palindromic
+3. define a function to check whether the number is a prime number
+4. define a function to check whether the reversal of a number is a prime number
+5. define a function to check whether it is an emirp
+   (1) start from the smallest emirp number 13
+   (2) use while loop to display the first 100 emirps
+   (3) if the number satisfies all three conditions above, print it out and align them properly
+   (4) count it into the total number and continue check the next number
+6. if count number can be divided by 10, change line to diplay 10 numbers per line
+7. call the emirp function to print the result
+
+Q3:
+1. prompt up the user to enter the credit card number
+2. define a function to calculate the sum of double even place from step 2
+   (1) at first the sum up value is zero
+   (2) use for loop and list to get every value in the even place from right to left
+   (3) convert them from string type to integer type
+   (4) if the number is two-digit long, add up the two digits to get a single-digit number
+   (5) sum up the double even place number and return the result
+3. define a function to return sum of odd place digits in number
+   (1) at first the sum up value is zero
+   (2) use for loop and list to get every value in odd place from right to left
+   (3) change the digit from string type to integer type
+   (4) sum up the digits we get and return the result
+4. define a function to sum up the results from step 1 and step 2
+5. define a function to check whether the credit card number is valid
+6. call the function to execute the check process
+
+Q4:
+1. prompt up the user to enter two words and assign the two words to two variables s1, s2
+2. define a function to check whether two words are anagram
+   (1) split the two words into two list
+   (2) sort the two lists
+   (3) return true if the two sorted lists are identical
+3. call the function to execute it
+
+Q5:
+1. set the number of students as 100 and use a list of 100 Boolean elements
+2. the period between two lockers the students changes is equal to his index
+3. student changes every multiple of his index lockers
+4. changes locker boolean state
+5. if the boolean expression of the locker is True, print out the open lockers number
+
+Q6:
+1. define a function to check whether the result satisfies the three conditions
+   (1) number of next queen y coordinate is the number of elements in used position tuple
+   (2) if next queen is in the same column of the last queen ¡ª¡ª> not satisfy the condition, return False
+   (3) check whether queens are in the same left and right diagonal lines
+2. define a function to arrange the queens on the chessboard
+   (1) check whether every queen position in the line satisfy the condition
+   (2) when it gets to the last line, return all results which satisfy the conditions
+   (3) otherwise, rearrange the queens until right 
+3. define a function to print the queens
+   (1) initialize every line as an eight-space list
+   (2) replace the queen position space with "Q"
+   (3) plug in "|" between every two spaces
+   (4) add "|" at the two ends
+   (5) print all 8 lines
+4. display one of the outcomes randomly
+
+
